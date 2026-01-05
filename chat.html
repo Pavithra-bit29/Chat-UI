@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat UI</title>
+    <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+    <div class="chat-container">
+        
+        <div class="sidebar">
+            <div class="chat-user active">
+                <div class="profile">A</div>
+                <div class="user-info">
+                    <div class="name">Ajay</div>
+                    <div class="status">Online</div>
+                </div>
+            </div>
+            <div class="chat-user">
+                <div class="profile">S</div>
+                <div class="user-info">
+                    <div class="name">Sanjana</div>
+                    <div class="status">Offline</div>
+                </div>
+            </div>
+            <div class="chat-user">
+                <div class="profile">D</div>
+                <div class="user-info">
+                    <div class="name">David</div>
+                    <div class="status">Offline</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chat Window -->
+        <div class="chat-window">
+            <div class="chat-header">
+                <div class="profile">A</div>
+                <div class="name-status">
+                    <div class="name">Ajay</div>
+                    <div class="status">Online</div>
+                </div>
+            </div>
+
+            <div class="chat-messages">
+                <div class="message received">
+                    Hey! Did you check the new design?
+                    <span class="time">19:51</span>
+                </div>
+                <div class="message sent">
+                    Yes! it looks really clean 🔥
+                    <span class="time">19:52</span>
+                </div>
+                <div class="message received">
+                    Great! Let's finalize it today.
+                    <span class="time">19:54</span>
+                </div>
+                <div class="message sent">
+                    Sure 👍
+                    <span class="time">13:56</span>
+                </div>
+            </div>
+
+            <div class="chat-input">
+                <input type="text" placeholder="Type a message...">
+                <button>Send</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
